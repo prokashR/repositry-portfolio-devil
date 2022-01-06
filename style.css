@@ -2,16 +2,29 @@ body{
     font-family: 'Poppins', sans-serif;
     margin: 0;
 }
+.loding{
+    width:4%;
+}
 img{
     width: 100%;
 }
 .header-section{
     display: flex;
 }
+.half-width1{
+    width: 50px;
+    margin-top: 14%;
+    margin-right: 60px;
+}
+.site-bar #site{
+    display: block;
+    font-size:20px;
+    padding:20px;
+    margin-top: 10%;
+}
 .logo{
     font-family: 'Aladin', cursive;
     margin-left:10%;
-
 }
 .header-link{
     margin-left: 45%;
@@ -28,11 +41,13 @@ img{
     color:cornflowerblue;
 }
 .flexble-banner{
+    display: flex;
     margin-top:100px;
+    margin-bottom:80px;
 }
 .conteinar{
     display:flex;
-    width: 1300px;
+    width: 1500px;
     margin: auto;
 }
 a{
@@ -55,8 +70,8 @@ a{
     margin-bottom:8%;
 }
 .half-width{
-    margin-right:20px;
-    width:45%;
+    margin-right: 20px;
+    width: 40%;
 }
 .half-a{
     text-decoration: none;
@@ -91,4 +106,59 @@ a{
     font-weight: 900;
     margin-left: 5px;
     margin-right: 5px;
+}
+.back-ground{
+    background-color:#E2E2E2;
+}
+.mar-gin{
+    margin-top:25%;
+}
+.midem-button{
+    border: 1px solid #fff;
+    font-size: 15px;
+    padding: 10px 31px;
+    margin-left: 0;
+    margin-right: 18px;
+    color: #000;
+    transition:.8s;
+}
+.midem-button:hover{
+    background-color:#fff;
+    color: #000;
+}
+.user-h4{
+    font-size:17px;
+    margin-top: -55px;
+    margin-bottom:20px;
+}
+.header3-section{
+    margin: auto;
+    text-align: center;
+}
+.hedding-size2{
+    font-size:40px;
+}
+.peragragh2{
+    width: 570px;
+    margin: auto;
+    font-size: 20px;
+}
+.box-model{
+    width:25%;
+    margin: auto;
+    border-radius:15px;
+    background: #fff;
+    padding: 10px 20px;
+    transition: .5s;
+    margin-top:100px;
+}
+.box-model:hover{
+    background:#E2E2E2;
+}
+.width-jang{
+    width: 50%;
+    margin-left: 30%;
+}
+.depo-size{
+  margin:auto;
 }
