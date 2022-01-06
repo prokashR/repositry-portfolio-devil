@@ -2,3 +2,93 @@ body{
     font-family: 'Poppins', sans-serif;
     margin: 0;
 }
+img{
+    width: 100%;
+}
+.header-section{
+    display: flex;
+}
+.logo{
+    font-family: 'Aladin', cursive;
+    margin-left:10%;
+
+}
+.header-link{
+    margin-left: 45%;
+    padding: 38px;
+}
+#link{
+    text-decoration: none;
+    font-size: 15px;
+    padding: 17px;
+    font-weight: bold;
+    color: #000;
+}
+#link:hover{
+    color:cornflowerblue;
+}
+.flexble-banner{
+    margin-top:100px;
+}
+.conteinar{
+    display:flex;
+    width: 1300px;
+    margin: auto;
+}
+a{
+    text-decoration: none;
+}
+.half-a{
+    text-decoration: none;
+    margin-top: 20%;
+    font-size: 30px;
+    padding: 30px;
+}
+.hedding-size{
+    font-size:70px;
+}
+.heading-size2{
+    font-size:28px;
+}
+.pragragh{
+    font-size: 31px;
+    margin-bottom:8%;
+}
+.half-width{
+    margin-right:20px;
+    width:45%;
+}
+.half-a{
+    text-decoration: none;
+    margin-top: 20%;
+}
+.button-link{
+    background:#391F82;
+    padding: 10px 30px;
+    font-size: 27px;
+    color: #fff;
+    border-radius: 10px;
+    border:1px solid #391F82;
+    transition:.8s;
+}
+.button-link:hover{
+    border:1px solid #391F82;
+    background: #fff;
+    color: #000;
+}
+.scoll{
+    font-size: 20px;
+    margin-top: 100px;
+    color:#391F82;
+    margin-left:5px;
+}
+.img-size{
+    margin-left: 30%;
+    width: 80%;
+    padding: 40px;
+}
+.fa, .fas {
+    font-weight: 900;
+    margin-left: 5px;
+    margin-right: 5px;
+}
