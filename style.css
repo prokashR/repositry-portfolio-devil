@@ -146,14 +146,17 @@ a{
 .box-model{
     width:25%;
     margin: auto;
+    border: 1px solid #E2E2E2;
     border-radius:15px;
     background: #fff;
     padding: 10px 20px;
     transition: .5s;
     margin-top:100px;
+    margin-bottom:15%;
 }
 .box-model:hover{
-    background:#E2E2E2;
+    background: #E2E2E2;
+    box-shadow: 12px 10px 24px #d4d4d4 ,-14px 15px 24px #d4d4d4;
 }
 .width-jang{
     width: 50%;
@@ -161,4 +164,52 @@ a{
 }
 .depo-size{
   margin:auto;
+}
+.footer-section4{
+    margin-top:-8%;
+    margin-bottom:250px;
+}
+.h6-size{
+    font-size: 20px;
+    font-weight: initial;
+    margin-bottom:-40px;
+}
+.Alex-calia{
+    font-size: 50px;
+    margin-bottom: -10px;
+}
+.span-color{
+    color: #4F1ABD;
+}
+.button-aro{
+    margin-top: 12%;
+    position: relative;
+    left: 20%;
+}
+.resume{
+    color: #fff;
+    font-size: 20px;
+    border: 1px solid #4F1ABD;
+    background:#4F1ABD;
+    padding: 5px 30px;
+    border-radius: 20px;
+    transition:.5s;
+}
+.resume:hover{
+    border: 1px solid #000;
+    border-radius: 20px;
+    background: #fff;
+    color: #000;
+    box-shadow:-2px 2px 8px #391F82,2px -2px 8px #391F82;
+}
+.fontend-peragragh{
+    font-size: 23px;
+    margin-bottom: 30px;
+}
+.resume1{
+    padding: 15px;
+    font-size: 21px;
+}
+.resume1:hover{
+    color:#4F1A;
 }
